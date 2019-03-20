@@ -1,0 +1,41 @@
+* {
+
+    box-sizing: border-box;
+    
+    }
+
+    #box {
+        padding-left: 200px
+    }
+    #quest {
+        padding: 20px
+    }
+#quest {
+    visibility: hidden;
+    background-color: black;
+    background: rgba(151, 48, 0, 0.3);
+    width: 225px;
+}
+
+#time {
+    height: 50px;
+  }
+
+#start {
+    visibility: visible;
+    
+}
+
+#replay {
+    visibility: hidden;
+    
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    color: white;
+    background-image: url("../images/jenny.jpg");
+    background-size: cover;
+  }

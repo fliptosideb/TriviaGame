@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jenny's Number</title>
+    <link rel="stylesheet" href="./assets/css/CSS-Reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div id="box">
+        <br>
+        <h1>What's Jenny's Phone Number?</h1>
+        <div id="correct"></div>
+        <br>
+        <button class="retry" id="replay" onclick="starter()">Replay</button>
+        <br>
+        <button class="begin" id="start">Start</button>
+        <div id="time"></div>
+
+        <br>
+
+        <div id="quest">
+            <Form id="quiz" name="quiz">
+                <p>What is the first digit?</p>
+                <input type="radio" name="ans1" value="a"> 9 &nbsp;
+                <input type="radio" name="ans1" value="b"> 5 &nbsp;
+                <input type="radio" name="ans1" value="c"> 8 &nbsp;
+                <input type="radio" name="ans1" value="d"> 6 &nbsp;
+                <br>
+                <p>What is the second digit?</p>
+                <input type="radio" name="ans2" value="a"> 7 &nbsp;
+                <input type="radio" name="ans2" value="b"> 6 &nbsp;
+                <input type="radio" name="ans2" value="c"> 4 &nbsp;
+                <input type="radio" name="ans2" value="d"> 3 &nbsp;
+                <br>
+                <p>What is the third digit?</p>
+                <input type="radio" name="ans3" value="a"> 8 &nbsp;
+                <input type="radio" name="ans3" value="b"> 5 &nbsp;
+                <input type="radio" name="ans3" value="c"> 7 &nbsp;
+                <input type="radio" name="ans3" value="d"> 2 &nbsp;
+                <br>
+                <p>What is the fourth digit?</p>
+                <input type="radio" name="ans4" value="a"> 4 &nbsp;
+                <input type="radio" name="ans4" value="b"> 0 &nbsp;
+                <input type="radio" name="ans4" value="c"> 1 &nbsp;
+                <input type="radio" name="ans4" value="d"> 5 &nbsp;
+                <br>
+                <p>What is the fifth digit?</p>
+                <input type="radio" name="ans5" value="a"> 3 &nbsp;
+                <input type="radio" name="ans5" value="b"> 7 &nbsp;
+                <input type="radio" name="ans5" value="c"> 1 &nbsp;
+                <input type="radio" name="ans5" value="d"> 2 &nbsp;
+                <br>
+                <p>What is the sixth digit?</p>
+                <input type="radio" name="ans6" value="a"> 0 &nbsp;
+                <input type="radio" name="ans6" value="b"> 2 &nbsp;
+                <input type="radio" name="ans6" value="c"> 5 &nbsp;
+                <input type="radio" name="ans6" value="d"> 3 &nbsp;
+                <br>
+                <p>What is the seventh digit?</p>
+                <input type="radio" name="ans7" value="a"> 7 &nbsp;
+                <input type="radio" name="ans7" value="b"> 9 &nbsp;
+                <input type="radio" name="ans7" value="c"> 4 &nbsp;
+                <input type="radio" name="ans7" value="d"> 8 &nbsp;
+                <br>
+                <br>
+                <input type="button" value="submit" onclick="check()">
+            </form>
+        </div>
+    </div>
+    <script src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
