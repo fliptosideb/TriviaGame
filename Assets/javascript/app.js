@@ -30,7 +30,6 @@ buttons()
 document.querySelector('#replay').style.visibility = 'hidden'
 }
 
-
 const check = _ => {
     var quest1 = document.quiz.ans1.value;
     var quest2 = document.quiz.ans2.value;
